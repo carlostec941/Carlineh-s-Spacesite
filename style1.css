@@ -1,0 +1,83 @@
+/*meu primeiro arquivo css*/
+
+/*
+seletor{
+	propriedade:valor;
+}
+*/
+
+p{
+	color: lightblue;
+	font-size: 40px;
+	font-family: Heveltica,arial;
+
+}
+
+body{
+
+	background-color: gray;
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+header{
+	background-color: black;
+	height: 90px;
+	font-size: 40px;
+	padding: 10px;
+}
+
+footer{
+	background-color: black;
+	color:orange;
+	height:60px;
+	/*esse comando repara o dano causado pelas div*/
+	clear:both;
+	text-align: center; 
+	padding: 10px;
+}
+h1{
+	color: #FFFFFF;
+	text-align: center;
+	padding: 0 0 30px 0;
+	text-shadow: 1px 1px 1px #111111;
+}
+/*As div tiveram que ser separadas em duas id*/
+#div_principal{
+	background-color: #35b8b0;
+	background-size: 100%;
+	background-image: url(nindu.png);
+	/*min-height se faz crescer conforme o teto*/
+	min-height: 1100px;
+	/*width: 60%;*/
+	/*float força as div ficar uma ao lado da outra
+	isso influencia no footer*/
+	/*float:left;*/
+	padding: 30px 0 0 0;
+}
+#logo{
+	float:left;
+}
+#menu{
+	float: right;
+}
+#menu a{
+	text-decoration: none;
+	color: #999;
+	padding: 15px;
+}
+#menu a:hover{
+	background-color: lightblue;
+}
+
+/*Uma Classe usa "."*/
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+.efeito{
+	background-color: 0 0 0 .5;
+	padding: 50px 0px 50px 0px;
+}
